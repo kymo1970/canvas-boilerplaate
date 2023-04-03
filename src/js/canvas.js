@@ -65,10 +65,6 @@ class Ball {
 
       this.dy = -this.dy;
       
-    }else{
-
-      this.y += this.dy;
-
     }
 
     this.y += 1;

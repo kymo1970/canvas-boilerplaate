@@ -151,8 +151,6 @@ var Ball = /*#__PURE__*/function () {
     value: function update() {
       if (this.y + this.radius > canvas.height) {
         this.dy = -this.dy;
-      } else {
-        this.y += this.dy;
       }
 
       this.y += 1;
